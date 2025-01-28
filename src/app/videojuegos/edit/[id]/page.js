@@ -43,7 +43,7 @@ export default function ItemVideojuego({ params }) {
         },
       }),
     });
-    window.location.href = '/videojuegos/' + id;
+    window.location.href = "/videojuegos/" + id;
     fetchItems();
   }
 
